@@ -23,3 +23,5 @@ if input_text:
     response = llm.generate(formatted_prompt)
     llm_text = response.generations[0][0].text
     st.write(llm_text)
+
+print("Hello")
